@@ -44,6 +44,7 @@ const FilteredItems = () => {
     return (
       <div className="flex items-center justify-center min-h-screen bg-white">
         <p className="text-gray-500 text-xl">Loading...</p>
+        <img src="./assets/rat.JPG" alt="" />
       </div>
     );
   }

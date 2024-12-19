@@ -1,8 +1,5 @@
-# React + Vite
+# **Escape from Tarkov Price Filter**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **price prediction tool** for **Escape from Tarkov’s** flea market system, where prices for in-game items fluctuate in real time. By utilizing data fetched from the **Tarkov.dev API**, the tool calculates and filters items based on their **price drop percentage** over the last 48 hours. If an item’s price has decreased by more than 50%, there’s a significant chance that the price will rebound, offering a potential profit opportunity, much like in a **stock market**.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![RAT](src/assets/rat.JPG)
